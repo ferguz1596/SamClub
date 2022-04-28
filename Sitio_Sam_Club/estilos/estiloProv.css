@@ -1,0 +1,14 @@
+body {
+	background-color: #EDEDE9;
+}
+.btnSig {
+	background-color: #FFB420;
+}
+.btnSig:hover{
+	background-color: #FFE02B;
+}
+.centro{
+	margin: 75 auto;
+	height: 500px;
+	width: 700px;
+}

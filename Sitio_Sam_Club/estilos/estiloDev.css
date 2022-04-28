@@ -1,0 +1,30 @@
+body{
+	white-space: nowrap;
+	margin: 80 auto;
+	height: 100%;
+	width: 100%;
+	background-color: #EDEDE9;
+}
+
+.btnllenar {
+	background-color: #FFB420;
+}
+.btnllenar:hover {
+	background-color: #FFE02B ;
+}
+#tabla {
+	width: 550;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#tabla td {
+	text-align: center;
+	border: 1px black solid;
+}
+#tabla #producto {
+	width: 300px;
+}
+form {
+	text-align: center;
+}

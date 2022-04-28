@@ -1,0 +1,126 @@
+<html>
+<head><title>Registrar Producto</title>
+	<link rel="stylesheet" type="text/css" href="estilos/estiloRecuperacion_RegistrarP.css">
+	<script type="text/JavaScript" src="javascript/regProducto.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form name="Recuperacion" method="post" action="" onsubmit="return validarRP();">
+	<table >
+		<tr>
+			<td colspan=4 >
+				<p id="Titulo">Agregar Producto</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="imagen">Agregar imagen:</label>
+			</td>
+			<td>
+				<input type="file" name="imagen">
+			</td>
+			<td>
+				<label for="lbltitulo">Titulo:</label>
+			</td>
+			<td>
+				<input type="text" name="titulo" id="txtTitulo" value="" placeholder="Agregue el titulo del producto">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="codigo">Codigo:</label>
+			</td>
+			<td>
+				<input type="text" name="codigo" id="txtCodigo" value="" placeholder="Agregue el codigo del producto">
+			</td>
+			<td>
+				<label for="cantidad" id="cant" >Cantidad:</label>
+			</td>
+			<td>
+				<input type="number" id="txtCantidad" name="cantidad">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="sku">SKU:</label>
+			</td>
+			<td>
+				<input type="text" id="txtSKU" name="sku" value="" placeholder="Agegue el codigo del proveedor">
+			</td>
+			<td>
+				<label for="Tproducto">Tipo de producto:</label>
+			</td>
+			<td>
+				<select name="Tproducto">
+					<option value="1" selected>Camisa</option>
+					<option value="2">Pantalon</option>
+					<option value="2">Chaqueta</option>
+					<option value="2">Saco</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="costo">Costo:</label>
+			</td>
+			<td>
+				<input type="number" id="txtCosto" name="costo" maxlength="30">
+			</td>
+			<td>
+				<label for="tallas">Tallas:</label>
+			</td>
+			<td>
+				<input type="checkbox" name="tallas[]" value="S" checked>S
+				<input type="checkbox" name="tallas[]" value="M">M
+				<input type="checkbox" name="tallas[]" value="L">L
+				<input type="checkbox" name="tallas[]" value="XL">XL
+				<input type="checkbox" name="tallas[]" value="XXL">XXL
+				<input type="checkbox" name="tallas[]" value="XXXL">XXXL
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="proveedor">Proveedor:</label>
+			</td>
+			<td>
+				<select name="proveedor">
+					<option value="1" selected>Calvin Klein</option>
+					<option value="2">Airline</option>
+				</select>
+			</td>
+			<td>
+				<label for="color">Color:</label>
+			</td>
+			<td>
+				<input type="checkbox" name="color[]" value="S" checked>Gris
+				<input type="checkbox" name="color[]" value="M">Negro
+				<input type="checkbox" name="color[]" value="L">Azul
+				<input type="checkbox" name="color[]" value="XL">Rojo
+				<input type="checkbox" name="color[]" value="XXL">Blanco
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="descripcion">Descripcion</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=4 >
+				<textarea name="descripcion" id="txtDescripcion" placeholder="Descripcion del producto"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td colspan=4 id="boton">
+				
+				<input type="submit" value="Siguiente" name="siguiente" id="enlace">
+				<a href="formularios.html" id="enlace" >Atras</a>
+			</td>
+		</tr>
+		
+	</table>
+	</form>
+</body>
+</html>

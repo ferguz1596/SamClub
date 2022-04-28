@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Registrar Usuario</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<LINK REL=StyleSheet HREF="estilos/Estilo_Carro-Formulario.css" TYPE="text/css">
+		<script type="text/JavaScript" src="javascript/regUsuario.js"></script>
+	</head>
+	<body>
+		<section class="Principal">
+			<form name="FrmRegistro" method="Post" action="" onsubmit="return validarRU();">
+				<hr>
+				<footer>
+					<label for "Nombre" class="Registro">Registo de Usuarios</label></br>
+				</footer>
+						
+				<label for "Nombre">Nombre: </label>
+				<input type="Text" id="Nom" name="txtNombre" placeholder="Escriba sus 2 Nombres"/></br></br>
+						
+				<label for "Apellido">Apellido: </label> 
+				<input type="text" id="Ape"  name="txtApellido" placeholder="Escriba sus 2 Apellidos"></br></br>
+						
+				<label for "Correo">Correo: </label>
+				<input type="e-mail" id="Corr"  name="txtmail" placeholder="Ejemplo@mail.com"></br></br>
+						
+				<label for "PDw">Contrase&ntilde;a: </label>
+				<input type="password" id="Cn"  name="txtPdw" placeholder="Escriba su Contrase&ntilde;a"></br></br>
+						
+				<label for "Direccion">Direccion: </label>
+				<textarea type="textarea" id="Direc"  name="txtDireccion" placeholder="Su Direccion"></textarea></br></br>
+						
+				<label for "Numero">Numero: </label>
+				<input type="number" maxlength="8" id="Num"  name="txtNumero" placeholder="Escriba su numero sin guion"></br></br>
+						
+				<input type="Submit" id="btn" name="btnEnviar">
+				</br>
+				<a href="formularios.html">Regresar</a>
+			</form>
+		</section>
+	</body>	
+</html>

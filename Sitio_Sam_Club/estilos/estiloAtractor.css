@@ -1,0 +1,82 @@
+* { margin: 0; padding: 0; }
+
+#imagen
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+header
+{
+	width: 100%;
+	height: 15%;
+	background-color: #424045;
+	text-align: center;
+	color: white;
+}
+
+label
+{
+	font-family: courier;
+	font-weight: 700;
+}
+
+#asideMenu
+{
+	background-color: #A4A4A4;
+	float: left;
+	font-family: courier;
+	color: white;
+	text-decoration: none;
+	height: 100%;
+	width: 20%;
+}
+
+#sectionP
+{
+	width: 80%;
+	height: 100%;
+	background-color: #E6E6E6;
+	float: left;
+}
+
+footer
+{
+	width: 100%;
+	height: 108%;
+	background-color: #424045;
+	color: #FFE02B;
+	text-align: center;
+	font-size: 15px;
+}
+
+ul
+{
+	padding-top: 30%;
+}
+
+ul li
+{
+	padding-top: 20%;
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+}
+
+#encabezadoTabla
+{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 12%;
+}
+
+#txtEncabezado1
+{
+	font-size: 80px;
+}

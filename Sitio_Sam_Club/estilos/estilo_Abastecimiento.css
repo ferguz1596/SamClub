@@ -1,0 +1,64 @@
+form {
+		width :50%;
+		border: 1px solid #ccc;
+		margin:20px;
+		padding:10px;
+		padding-top:0;
+		margin-left:auto;
+		margin-right:auto;}
+
+table
+{
+	width: 75%;
+	margin: auto;
+    border: 1px solid #ccc;
+}
+label
+{
+	font-size: 20px;
+	width:100%
+}
+
+
+input[type="button"]{
+	margin-bottom:0;
+	background:#FFB420;
+	margin:auto;
+}
+
+
+input[type="button"]:hover{
+	background:#FFE02B  ;
+	cursor:pointer;
+}
+
+.Registro{
+		
+	font-size: 25px;
+	display:block;
+	width:100%
+}
+
+
+
+
+
+.Principal{
+		margin-top:2;
+		text-align:left;
+		width:80%;
+		margin:auto;
+
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	
+	body{
+		background-color:#EDEDE9}
+		
+		
+		.impo{
+			text-align:center;
+				
+		}
+	

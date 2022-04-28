@@ -1,0 +1,100 @@
+form {
+		width :50%;
+		border: 1px solid #ccc;
+		margin:20px;
+		padding:20px;
+		padding-top:0;
+		margin-left:auto;
+		margin-right:auto;}
+
+label {
+	
+	font-size: 15px;
+	display:block;
+	width:100%
+}
+
+textarea{
+	
+	resize: vertical;
+	max-height:100px;
+	min-height:25;
+	}
+
+
+input, textarea { 
+	margin-bottom:20px; width:100%;
+	padding:10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+	border:1px  solid #ccc;
+}
+
+input:focus,textarea:focus{
+	
+border: 1px solid #1B2631      ; 
+}
+
+
+input[type="submit"]{
+	margin-bottom:0;
+	background:#FFB420;
+	margin:auto;
+}
+
+
+
+input[type="submit"]:hover{
+	background:#FFE02B  ;
+	cursor:pointer;
+}
+
+select{
+	margin-bottom:0;
+	background:#FFB420;
+	margin:auto;
+	width: 100%;
+	height: 5%
+}
+
+
+
+select: hover{
+	background:#FFE02B ;
+	cursor:pointer;
+}
+
+.Registro{
+		
+	font-size: 25px;
+	display:block;
+	width:100%
+}
+
+.Principal{
+		margin-top:2;
+		text-align:left;
+		width:80%;
+		margin:auto;
+
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	
+	body{
+		background-color:#EDEDE9}
+		
+		.EncaT{
+			text-align:center;
+			margin:auto;}
+	.d{
+		text-align:center;
+		margin-left:
+		auto;}
+		
+		.impo{
+			text-align:right;
+				
+		}
+	

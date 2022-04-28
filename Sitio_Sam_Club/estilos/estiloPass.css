@@ -1,0 +1,32 @@
+body {
+	background-color: #EDEDE9;
+	margin:20px;
+	padding:300px;
+	padding-top:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+.btnIngresar {
+	background-color: #FFB420;
+}
+.btningresar:hover {
+	background-color: #FFE02B ;
+}
+.pass {
+	padding-top: 25px;
+}
+.login {
+	margin: 100px auto;
+}
+.border{
+	height: 400;
+	width: 800;
+	margin: 150 auto;
+	border: black 1px solid;
+}
+.img {
+	padding-right: 10;
+}
+.lista {
+	list-style: none;
+}

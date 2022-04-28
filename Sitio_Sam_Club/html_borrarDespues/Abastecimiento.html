@@ -1,0 +1,93 @@
+<html>
+	<head><title> Abastecimiento </title>
+		<link rel="stylesheet" type="text/css" href="estilos/estilo_Abastecimiento.css"/>
+		<script language="javascript" src="javascript/ValidarAB.js"></script>
+		
+	</head>
+
+	<body>
+	
+	<section class="Principal">
+		
+	<form name= "frmAbastecimiento" action="" onSubmit="return ValidarAb();" method="POST" >
+	
+		<center><h2>Abastecimiento</h2></center>
+
+		<table>
+			<tr>
+				<td>
+					<label>Tipo:<br>
+					<input type="checkbox" name="tipoRopa1" id="cami" onClick="disableOthers(this)" value="camisas"> <label>Camisa 
+					<input type="checkbox" id="pan" name="tipoRopa2"  onclick="disableOthers2(this)" value="pantalones"><label >Pantalon
+					<input type="checkbox" name="tipoRopa3" id="ch"  onclick="disableOthers3(this)" value="chaquetas"><label >Chaqueta
+					<input type="checkbox" name="tipoRopa4" id="cal"  onclick="disableOthers4(this)" value="calsetines"><label >Calsetines<br><br>
+					
+					<label>Talla: <br>
+					Camisas:<br>
+					<input type="checkbox" name="camisas1" onClick="disableOthersA(this)" value="XS" > <label >XS
+					<input type="checkbox" name="camisas2"  onclick="disableOthersB(this)" value="M"><label >S
+					<input type="checkbox" name="camisas3"  onclick="disableOthersC(this)" value="M"><label >M
+					<input type="checkbox" name="camisas4" onClick="disableOthersD(this)"  value="L"><label >L
+					<input type="checkbox" name="camisas5"  onclick="disableOthersE(this)" value="XL"><label >XL
+					<input type="checkbox" name="camisas6"  onclick="disableOthersF(this)" value="XXL"><label >XXL <br>
+					
+					<label>Pantalon:<br>
+					<input type="checkbox" name="pantalon1" onClick="disableOthersG(this)" value="28" > <label >28
+					<input type="checkbox" name="pantalon2" onClick="disableOthersH(this)" value="30"><label >30
+					<input type="checkbox" name="pantalon3" onClick="disableOthersI(this)" value="32"><label >32
+					<input type="checkbox" name="pantalon4" onClick="disableOthersJ(this)" value="34"><label>34
+					<input type="checkbox" name="pantalon5" onClick="disableOthersK(this)" value="36"><label >36<br><br>
+					
+					<label>Estilo:<br>
+					<input type="checkbox" name="estilo1" onClick="disableOthersL(this)"" value="casual" > <label >Casual
+					<input type="checkbox" name="estilo2" onClick="disableOthersO(this)" value="veraneante"><label >Veraneante
+					<input type="checkbox" name="estilo3" onClick="disableOthersP(this)" value="invierno"><label >Invierno
+					<input type="checkbox" name="estilo4" onClick="disableOthersQ(this)" value="formal"><label >Formal<br><br>
+					
+				</td>
+			</tr>
+			<tr>
+				<td><center>
+				<label > Codigo del producto: <input type="text" name="Cod_Producto" size="40"> <input type="button" name="btnBuscar" value="Buscar">
+				</center></td>
+			</tr>
+			
+		</table>
+		<table border="1px">
+			<tr>
+				<td width="50%">
+					<label >producto	
+				</td>
+				<td width="25%">
+					<label >Stock
+				</td>
+				<td width="25%">
+					<label >Agregar a Stock
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					&nbsp
+				</td>
+				<td>
+					&nbsp
+				</td>
+				<td>
+					&nbsp
+				</td>
+				
+			</tr>
+			
+				
+			
+		</table>
+		<br><br>
+		<a href = "formularios.html"><label >Atras <a> &nbsp <input type="submit" name="Guardar"  submit="return ValidarAb();" value="Guardar">
+		
+		</table>
+		
+	</form>
+	</section>
+	</body>
+</html>

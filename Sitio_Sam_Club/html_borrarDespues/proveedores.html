@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilos/estiloProv.css">
+	<script language="javascript" src="javascript/ValidarP.js"></script>
+</head>
+<body>
+	
+	<form name="frmProv" action="f.php"  onsubmit="return ValiPro();" method="POST">
+	<table class="centro">
+		<tr>
+			<td>
+				<h2>Proveedores<h2>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ID Proveedor:
+			</td>
+			<td>
+				<input type="text" name="id" size="20">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Nombre:
+			</td>
+			<td>
+					<input type="text" name="nombre" size="30">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Raz&oacute;n Social:
+			</td>
+			<td>
+				<input type="text" name="razon" size="20">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Direcci&oacute;n:
+			</td>
+			<td>
+				<input type="textarea" name="direccion" size="30">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Telefono:
+			</td>
+			<td>
+				<input type="tel" name="telefono" size="20">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Correo electr&oacute;nico:
+			</td>
+			<td>
+				<input type="email" name="correo" size="30" placeholder="ejemplo@mail.com">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="formularios.html">Atras</a>
+			</td>
+			<td>
+				<input type="submit" name="btnSig"  value="Siguiente" class="btnSig">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
